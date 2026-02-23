@@ -19,7 +19,7 @@ export default function Cards() {
         image_alt="Personal portfolio repository built with Next.js"
         card_title="Portfolio"
         card_description="My personal portfolio website built with Next.js and Tailwind CSS, focused on reusable UI components, responsive layout patterns, and production-ready structure."
-        demo_link="https://github.com/AlbertoJALJ/Portfolio"
+        demo_link="https://daxx.site"
         github_link="https://github.com/AlbertoJALJ/Portfolio"
         badges={["Next.js", "Tailwind CSS"]}
       />
