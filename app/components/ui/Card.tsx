@@ -1,8 +1,9 @@
 import Image from "@/components/ui/Image"
 import Button from "@/components/ui/Button"
 import Badge from "@/components/ui/Badge"
-import GithubIcon from "@/assets/github.png"
+import SourceCodeIcon from "@/assets/github.png"
 import RocketSvg from "@/assets/rocket.svg"
+import Link from "next/link"
 import { StaticImport } from "next/dist/shared/lib/get-img-props"
 
 export type CardProps = {
@@ -36,14 +37,18 @@ export const Card = ({ image_src, image_alt, card_title, card_description, demo_
 
         <p className="text-blue-gray">{card_description}</p>
         <div className="flex gap-5">
-          <Button variant={"link"} icon>
-            <Image src={RocketSvg} alt="Rocket icon" className="h-4 w-4" />
-            Live Demo
-          </Button>
-          <Button variant={"link"} tone="muted" icon>
-            <Image src={GithubIcon} alt="GitHub icon" className="h-2 w-4" />
-            Github
-          </Button>
+          <Link href={demo_link} target="_blank" rel="noreferrer">
+            <Button variant={"link"} icon>
+              <Image src={RocketSvg} alt="External link icon" className="h-4 w-4" />
+              Live Demo
+            </Button>
+          </Link>
+          <Link href={github_link} target="_blank" rel="noreferrer">
+            <Button variant={"link"} tone="muted" icon>
+              <Image src={SourceCodeIcon} alt="GitHub repository icon" className="h-2 w-4" />
+              Source Code
+            </Button>
+          </Link>
         </div>
 
       </div>

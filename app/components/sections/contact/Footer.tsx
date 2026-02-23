@@ -10,7 +10,7 @@ type SocialItem = {
 const socials: SocialItem[] = [
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/alberto-lopez-jimenez-721159153",
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
         <circle cx="12" cy="12" r="8.25" />
@@ -21,7 +21,7 @@ const socials: SocialItem[] = [
   },
   {
     label: "GitHub",
-    href: "https://github.com/",
+    href: "https://github.com/AlbertoJALJ",
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
         <rect x="4" y="5" width="16" height="14" rx="2" />
@@ -31,7 +31,7 @@ const socials: SocialItem[] = [
     ),
   },
   {
-    label: "Twitter",
+    label: "X",
     href: "https://x.com/",
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">

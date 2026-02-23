@@ -7,30 +7,30 @@ export default function Cards() {
     <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6">
       <Card
         image_src={feat_img_1}
-        image_alt="SaaS landing page preview"
-        card_title="SaaS Landing Page"
-        card_description="High-conversion landing page with Framer Motion animations and responsive grid layout."
-        demo_link="#"
-        github_link="#"
-        badges={["Tailwind"]}
+        image_alt="CEP Banxico Node.js library repository preview"
+        card_title="cep-nodejs"
+        card_description="Professional Node.js client for validating SPEI transfers in Banxico CEP, including structured parsing and PDF/XML receipt downloads with robust error handling."
+        demo_link="https://github.com/AlbertoJALJ/cep-nodejs"
+        github_link="https://github.com/AlbertoJALJ/cep-nodejs"
+        badges={["Node.js", "TypeScript"]}
       />
       <Card
         image_src={feat_img_2}
-        image_alt="Portfolio project preview"
-        card_title="Portfolio Website"
-        card_description="Modern portfolio with reusable components, CVA variants and responsive sections."
-        demo_link="#"
-        github_link="#"
-        badges={["Next.js"]}
+        image_alt="Personal portfolio repository built with Next.js"
+        card_title="Portfolio"
+        card_description="My personal portfolio website built with Next.js and Tailwind CSS, focused on reusable UI components, responsive layout patterns, and production-ready structure."
+        demo_link="https://github.com/AlbertoJALJ/Portfolio"
+        github_link="https://github.com/AlbertoJALJ/Portfolio"
+        badges={["Next.js", "Tailwind CSS"]}
       />
       <Card
         image_src={feat_img_3}
-        image_alt="Dashboard project preview"
-        card_title="Analytics Dashboard"
-        card_description="Dashboard UI focused on clean layout, reusable UI primitives and scalable structure."
-        demo_link="#"
-        github_link="#"
-        badges={["Node.js"]}
+        image_alt="soloajustes website repository preview"
+        card_title="soloajustes"
+        card_description="Production website implementation based on Astro + Tailwind CSS + TypeScript, with multilingual-ready pages, responsive UI, and content-driven architecture."
+        demo_link="https://soloajustescomunicacion.com"
+        github_link="https://github.com/Exclusivas-Automotrices-Sanchez/soloajustes"
+        badges={["Astro", "Tailwind CSS"]}
       />
     </div>
   );

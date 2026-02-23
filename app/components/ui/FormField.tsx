@@ -22,7 +22,7 @@ export default function FormField({
 
   return (
     <div className="flex flex-col gap-2">
-      <label htmlFor={id} className="text-left text-sm font-medium">
+      <label htmlFor={id} className="text-left text-sm font-medium dark:text-zinc-200">
         {label}
         {required && <span className="ml-1 text-brand-blue">*</span>}
       </label>
@@ -40,7 +40,7 @@ export default function FormField({
           {error}
         </p>
       ) : helperText ? (
-        <p id={`${id}-helper`} className="text-sm text-blue-gray/80">
+        <p id={`${id}-helper`} className="text-sm text-blue-gray/80 dark:text-zinc-400">
           {helperText}
         </p>
       ) : null}
